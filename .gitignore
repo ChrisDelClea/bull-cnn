@@ -1,0 +1,32 @@
+# Data and caches
+data/
+*.parquet
+*.npz
+*.npy
+*.pkl
+
+# Environment and secrets
+.env
+.venv/
+venv/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+*.dtmp
+.$*
+
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Experiment tracking databases
+*.db
+*.sqlite
+*.sqlite3
+mlruns/
+.agents/
